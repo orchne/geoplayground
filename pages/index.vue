@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <h1>Welcome to geoplayground</h1>
+  <div class="h-full">
+    <h1>Peta Geologi Regional Seluruh Indonesia</h1>
+    <IndonesiaGeologyMap />
   </div>
 </template>
 
