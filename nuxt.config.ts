@@ -2,9 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxt/eslint",
-    "@nuxtjs/leaflet",
-  ],
+  modules: ["@nuxt/eslint", "@nuxtjs/leaflet", "@nuxt/fonts", "@nuxt/ui"],
+  colorMode: {
+    preference: "light",
+  },
 });
